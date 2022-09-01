@@ -35,7 +35,6 @@
   267  cd delete
   268  ls
   269  rm -r 'A*
-
   270  rm -r 'A*'
   271  man rm
   272  rm "A*"
@@ -58,7 +57,6 @@
   289  ls
   290  find . -name "FS{"
   291  grep -r "FS{"
-  292  echo "526c4e375a57356a62325270626d646651554645526a4242525452454d7a637a52454d334f48303d" | xxd -r | base64 -d
   293  echo "526c4e375a57356a62325270626d646651554645526a4242525452454d7a637a52454d334f48303d" | xxd -r | base64 -d > encode
   294  ls
   295  cat encode
@@ -68,8 +66,6 @@
   299  xxd -r encode
   300  cat encode
   301  xxd -r encode > encode
-  302* 
-  303  echo "526c4e375a57356a62325270626d646651554645526a4242525452454d7a637a52454d334f48303d" | xxd -r -p
   304  echo "526c4e375a57356a62325270626d646651554645526a4242525452454d7a637a52454d334f48303d" | xxd -r -p | base64 -d
   305  adduser
   306  sudo adduser new-user
@@ -108,8 +104,6 @@
   339  cd /tmp
   340  rm timer.log
   341  ls
-  342  cron
-  343  sudo cron
   344  crontab -e
   345  cd ~/test
   346  ./scheduling 
@@ -138,7 +132,6 @@
   369  sudo wget https://shell.fullstackacademy.com/static/b33a8356eae8cdb91a5f555ea094f83c/search.zip
   370  unzip search.zip 
   371  ls
-  372  cd searcg
   373  cd search/
   374  ls
   375  find -size 1184c
