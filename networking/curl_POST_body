@@ -1,0 +1,1 @@
+$ curl -X POST -H "Content-Type: application/json" -d '{"memories": "x"}' http://fullstackcyber.pythonanywhere.com/ 
